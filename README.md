@@ -17,7 +17,7 @@ Our website contains the six pages:
 These pages allow users to navigate the restaurant website freely and to also learn about the restaurant and its history, seeing how many branches they have across the USA and Europe
 
 ## Technologies Used IN THIS PROJECT
-- Appsmith fo building the no code UI/UX prototype
+- Appsmith fo building the low/no code UI/UX prototype
 - GitHub for uploading and describing the project
 
 ## Team Members
