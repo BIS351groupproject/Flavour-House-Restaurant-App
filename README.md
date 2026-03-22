@@ -25,9 +25,9 @@ These pages allow users to navigate the restaurant website freely and to also le
 
 ## 📈 Planning (Gantt Chart)
 The project follows a structured timeline:
-1- Requirements & UI/UX Design
-2- Frontend Development (HTML/CSS/JS)
-3- Final Project App/Report/Presentation
+***[Milestone 1]** Requirements & UI/UX Design
+***[Milestone 2]** Frontend Development (HTML/CSS/JS)
+***[Milestone 3]** App/Report/Presentation
 
 ## Team Members
 Latifa Adam, Nora Saud Albishi, Raghad Alzahrani
