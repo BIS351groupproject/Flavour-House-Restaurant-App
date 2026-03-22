@@ -30,7 +30,7 @@ The project follows a structured timeline:
 - **[Milestone 1]** Requirements & UI/UX Design
 - **[Milestone 2]** Frontend Development (HTML/CSS/JS)
 - **[Milestone 3]** Final Project App/Report/Presentation
-- [View Gantt Chart (PDF)](Gantt_Chart.pdf)
+- [View Gantt Chart (PDF)](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/Gantt%20Chart.pdf)
 
 ## Team Members
 Latifa Adam, Nora Saud Albishi, Raghad Alzahrani
