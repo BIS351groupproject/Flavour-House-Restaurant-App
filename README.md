@@ -5,7 +5,7 @@ The restaurant was founded in Texas by John Phillips and serves classic American
 
 The goal of our application is to allow customers to easily search for the restaueant online whether its for viewing the menu, or placing food orders, or reading customers reviews.
 
-[View Business Problem and Proposed Solution (PDF)] (BIS_351_group_final_project.pdf)
+[View Business Problem and Proposed Solution (PDF)](BIS_351_group_final_project.pdf)
 
 ## Features
 Our website contains the nine pages:
@@ -30,7 +30,7 @@ The project follows a structured timeline:
 - **[Milestone 1]** Requirements & UI/UX Design
 - **[Milestone 2]** Frontend Development (HTML/CSS/JS)
 - **[Milestone 3]** Final Project App/Report/Presentation
-- [View Gantt Chart (PDF)] (Gantt_Chart.pdf)
+- [View Gantt Chart (PDF)](Gantt_Chart.pdf)
 
 ## Team Members
 Latifa Adam, Nora Saud Albishi, Raghad Alzahrani
