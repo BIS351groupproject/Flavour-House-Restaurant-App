@@ -5,7 +5,7 @@ The restaurant was founded in Texas by John Phillips and serves classic American
 
 The goal of our application is to allow customers to easily search for the restaueant online whether its for viewing the menu, or placing food orders, or reading customers reviews.
 
-[View Business Problem and Proposed Solution (PDF)](BIS_351_group_final_project.pdf)
+[View Business Problem and Proposed Solution (PDF)](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/BIS%20351%20group%20final%20project.pdf)
 
 ## Features
 Our website contains the nine pages:
