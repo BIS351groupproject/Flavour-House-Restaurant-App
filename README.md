@@ -25,7 +25,7 @@ These pages allow users to navigate the restaurant website freely and to also le
 - Appsmith fo building the low/no code UI/UX prototype, Check out the interactive prototype built with Appsmith: https://mywebappgroup.appsmith.com/app/bis-351-project/login-69b8ab1b56f81e6ccdd11e37
 - GitHub for uploading and describing the project
 
-## 📈 Planning (Gantt Chart)
+## Planning (Gantt Chart)
 The project follows a structured timeline:
 - **[Milestone 1]** Requirements & UI/UX Design
 - **[Milestone 2]** Frontend Development (HTML/CSS/JS)
@@ -33,4 +33,4 @@ The project follows a structured timeline:
 - [View Gantt Chart (PDF)](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/Gantt%20Chart.pdf)
 
 ## Team Members
-Latifa Adam, Nora Saud Albishi, Raghad Alzahrani
+Latifa Adam, Norah Saud Albishi, Raghad Alzahrani
