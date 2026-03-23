@@ -14,7 +14,7 @@ Our website contains the nine pages:
 - Profile Page
 - Menu Page
 - Cart Page
-- Checkout Page
+- Check Out Page
 - About Us Page
 - Contact Us Page
 - Reviews Page
