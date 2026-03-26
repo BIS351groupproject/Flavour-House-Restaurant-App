@@ -22,7 +22,7 @@ Our website contains the nine pages:
 These pages allow users to navigate the restaurant website freely and to also learn about the restaurant and its history, seeing how many branches they have across the USA and Europe.
 
 ## Technologies Used IN THIS PROJECT
-- Appsmith fo building the low/no code UI/UX prototype, Check out the interactive prototype built with Appsmith: https://mywebappgroup.appsmith.com/app/bis-351-project/reviews-69b72a55e334720cf3b81368
+- Appsmith fo building the low/no code UI/UX prototype, Check out the interactive prototype built with Appsmith: https://mywebappgroup.appsmith.com/app/bis-351-project/login-69b8ab1b56f81e6ccdd11e37
 - GitHub for uploading and describing the project
 
 ## Planning (Gantt Chart)
