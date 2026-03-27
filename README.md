@@ -22,7 +22,7 @@ Our website contains the nine pages:
 These pages allow users to navigate the restaurant website freely and to also learn about the restaurant and its history, seeing how many branches they have across the USA and Europe.
 
 ## Technologies Used IN THIS PROJECT
-- Appsmith fo building the low/no code UI/UX prototype, Check out the interactive prototype built with Appsmith: https://mywebappgroup.appsmith.com/app/bis-351-project/login-69b8ab1b56f81e6ccdd11e37
+- Appsmith for building the low/no code UI/UX prototype, Check out the interactive prototype built with Appsmith: https://mywebappgroup.appsmith.com/app/bis-351-project/login-69b8ab1b56f81e6ccdd11e37
 - Check out the UX/UI web project implemented in code built with HTML: [View HTML](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/Flavour%20House%20Restaurant.html)
 - Check out the UX/UI web project implemented in code built with CSS: [View CSS](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/style.css)
 - GitHub for uploading and describing the project
