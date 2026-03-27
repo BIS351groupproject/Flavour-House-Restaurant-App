@@ -23,8 +23,7 @@ These pages allow users to navigate the restaurant website freely and to also le
 
 ## Technologies Used IN THIS PROJECT
 - Appsmith for building the low/no code UI/UX prototype, Check out the interactive prototype built with Appsmith: https://mywebappgroup.appsmith.com/app/bis-351-project/login-69b8ab1b56f81e6ccdd11e37
-- Check out the UX/UI web project implemented in code built with HTML: [View HTML](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/Flavour%20House%20Restaurant.html)
-- Check out the UX/UI web project implemented in code built with CSS: [View CSS](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/style.css)
+- Check out the UX/UI web project implemented in code built with HTML/CSS: [View HTML/CSS](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/tree/main/Flavour%20House%20Restaurant)
 - GitHub for uploading and describing the project
 
 ## Planning (Gantt Chart)
