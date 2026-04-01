@@ -34,7 +34,7 @@ Semantic Structure
 Instead of using generic "div" tags, we used meaningful HTML5 elements. This helps Screen Readers navigate 9 pages efficiently.
 - "nav": For the main navigation menu.
 - "main": For the unique content of each page.
-- "header" & "<footer>": To define the top and bottom sections consistently.
+- "header" & "footer": To define the top and bottom sections consistently.
 - "h1" to "h6": Used in a logical nesting order.
 
 Visual & Color Contrast
