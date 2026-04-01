@@ -31,14 +31,14 @@ These pages allow users to navigate the restaurant website freely and to also le
 The project follows WCAG Level AA standards by implementing Semantic HTML, ensuring high Color Contrast, providing Alt Text for media, and maintaining full Keyboard Navigability across all 9 pages.
 
 Semantic Structure 
-Instead of using generic "div" tags, we used meaningful HTML5 elements. This helps Screen Readers navigate 9 pages efficiently.
+- Instead of using generic "div" tags, we used meaningful HTML5 elements. This helps Screen Readers navigate 9 pages efficiently.
 - "nav": For the main navigation menu.
 - "main": For the unique content of each page.
 - "header" & "footer": To define the top and bottom sections consistently.
 - "h1" to "h6": Used in a logical nesting order.
 
 Visual & Color Contrast
-We ensure the site is readable for everyone:
+- We ensure the site is readable for everyone:
 - The brown and beige background meets the text clarity.
 - We don't rely only on colors to show errors; we use text labels as well.
 
