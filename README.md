@@ -43,7 +43,7 @@ Visual & Color Contrast
 - We don't rely only on colors to show errors; we use text labels as well.
 
 Perceivable Content (Images & Charts)
-- Alt Text: Every food image has a descriptive alt attribute, alt="Pepperoni Pizza" as an example .
+- Alt Text: Every food image has a descriptive alt attribute, alt="Pepperoni Pizza" as an example.
 - Semantic Charts: Our Bar Chart uses "figure", making the data understandable for visually impaired users via screen readers.
 
 Operability (Keyboard & Forms)
