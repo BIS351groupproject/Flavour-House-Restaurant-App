@@ -31,11 +31,11 @@ These pages allow users to navigate the restaurant website freely and to also le
 The project follows WCAG Level AA standards by implementing Semantic HTML, ensuring high Color Contrast, providing Alt Text for media, and maintaining full Keyboard Navigability across all 9 pages.
 
 Semantic Structure 
-Instead of using generic "<div>" tags, we used meaningful HTML5 elements. This helps Screen Readers navigate 9 pages efficiently.
-- "<nav>": For the main navigation menu.
-- "<main>": For the unique content of each page.
-- "<header>" & "<footer>": To define the top and bottom sections consistently.
-- "<h1>" to "<h6>": Used in a logical nesting order.
+Instead of using generic "div" tags, we used meaningful HTML5 elements. This helps Screen Readers navigate 9 pages efficiently.
+- "nav": For the main navigation menu.
+- "main": For the unique content of each page.
+- "header" & "<footer>": To define the top and bottom sections consistently.
+- "h1" to "h6": Used in a logical nesting order.
 
 Visual & Color Contrast
 We ensure the site is readable for everyone:
@@ -44,15 +44,15 @@ We ensure the site is readable for everyone:
 
 Perceivable Content (Images & Charts)
 - Alt Text: Every food image has a descriptive alt="Pepperoni Pizza" attribute.
-- Semantic Charts: Our Column Chart uses "<figure>", making the data understandable for visually impaired users via screen readers.
+- Semantic Charts: Our Column Chart uses "figure", making the data understandable for visually impaired users via screen readers.
 
 Operability (Keyboard & Forms)
 - Focus States: We kept the visual "outline" when a user navigates via the Tab key.
-- Form Labels: In the "Contact Us" and "Check Out" pages, every "<input>" is strictly linked to a "<label>" for attributes.
+- Form Labels: In the "Contact Us" and "Check Out" pages, every "input" is strictly linked to a "label" for attributes.
 - Interactive Targets: Buttons and links are large enough to be easily clicked on mobile or by users with motor impairments.
 
 Inclusivity Highlights
-- Language: Added lang="en" to the "<html>" tag so screen readers use the correct accent.
+- Language: Added lang="en" to the "html" tag so screen readers use the correct accent.
 - Meaningful Links: Replaced "Click here" with descriptive text like "Complete Payment" to provide context.
 
 ## Planning (Gantt Chart)
