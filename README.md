@@ -44,7 +44,7 @@ Visual & Color Contrast
 
 Perceivable Content (Images & Charts)
 - Alt Text: Every food image has a descriptive alt attribute, alt="Pepperoni Pizza" as an example .
-- Semantic Charts: Our Column Chart uses "figure", making the data understandable for visually impaired users via screen readers.
+- Semantic Charts: Our Bar Chart uses "figure", making the data understandable for visually impaired users via screen readers.
 
 Operability (Keyboard & Forms)
 - Focus States: We kept the visual "outline" when a user navigates via the Tab key.
