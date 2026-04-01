@@ -38,7 +38,7 @@ Semantic Structure
 - "h1" to "h6": Used in a logical nesting order.
 
 Visual & Color Contrast
-- We ensure the site is readable for everyone:
+- We ensure the site is readable for everyone.
 - The brown and beige background meets the text clarity.
 - We don't rely only on colors to show errors; we use text labels as well.
 
