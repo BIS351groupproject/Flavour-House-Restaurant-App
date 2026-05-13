@@ -34,7 +34,7 @@ These pages allow users to navigate the restaurant website freely and to also le
 
 The project follows WCAG Level AA accessibility principles by using semantic HTML, maintaining clear color contrast, providing alternative text for images, and supporting keyboard navigation across all pages.
 
-1. Semantic Structure
+- Semantic Structure
 
 The website uses semantic HTML5 elements instead of generic containers to improve readability and accessibility.
 
@@ -44,21 +44,21 @@ The website uses semantic HTML5 elements instead of generic containers to improv
 - "section", "article", "figure", and "aside" help organize related content clearly.
 - Headings such as "h1", "h3", and "h4" are used to create a logical content structure.
 
-2. Visual & Color Contrast
+- Visual & Color Contrast
 
 The website uses high-contrast colors to improve readability.
 
 - Dark text and dark interface elements are combined with light beige backgrounds for better visibility.
 - Error messages include both color indicators and text descriptions to improve clarity for users.
 
-3. Perceivable Content
+- Perceivable Content
 
 Images and visual content are designed to be understandable for all users.
 
 - Images include descriptive "alt" attributes such as alt="Pepperoni Pizza".
 - The review rating section uses semantic elements like "figure" and "progress" to improve accessibility and structure.
 
-4. Keyboard Accessibility & Forms
+- Keyboard Accessibility & Forms
 
 The website supports keyboard interaction and accessible form design.
 
@@ -67,7 +67,7 @@ The website supports keyboard interaction and accessible form design.
 - Forms include visible labels to describe the purpose of each input field.
 - Buttons and interactive elements are large enough to improve usability on mobile devices and for users with motor impairments.
 
-5. Inclusivity Features
+- Inclusivity Features
 
 Additional accessibility features were implemented to improve the overall user experience.
 
