@@ -58,7 +58,7 @@ Inclusivity Highlights
 - Language: Added lang="en" to the "html" tag so screen readers use the correct accent.
 - Meaningful Links: Replaced "Click here" with descriptive text like "Complete Payment" to provide context.
 
-## Planning (Gantt Chart)
+## Planning (Gantt Chart (Updated))
 The project follows a structured timeline:
 - **[Milestone 1]** Requirements & UI/UX Design (Appsmith/HTML/CSS)
 - **[Milestone 2]** Functional Development (HTML/CSS/JS) / Final Project App/Report/Presentation
