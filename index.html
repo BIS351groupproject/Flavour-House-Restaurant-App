@@ -11,33 +11,34 @@
 <main id="login" class="page">
 <header class="banner"><h1>Flavour House Restaurant</h1></header>
 <section class="box">
-<form>
-<label>Username or Email</label>
-<span class="input-row"><input type="text" placeholder="👤 Enter Username or Email"></span>
+<form id="loginForm">
+<label>Username</label>
+<span class="input-row"><input type="text" id="loginUser" placeholder="👤 Enter Username"></span>
+<span class="error-message" id="loginUserError"></span>
 <label>Password</label>
-<span class="input-row"><input type="password" placeholder="🔒 Enter Password"></span>
-<a href="#home" class="btn-main">➜] LOG IN</a>
+<span class="input-row"><input type="password" id="loginPassword" placeholder="🔒 Enter Password"></span>
+<span class="error-message" id="loginPasswordError"></span>
+<button type="submit" class="btn-main">➜] LOG IN</button>
 </form>
 </section>
 </main>
 
-<main id="home" class="page">
+<main id="home" class="page">   
+<header>
+<section class="banner">
+<h1>Flavour House Restaurant</h1>
+<p id="welcomeUser"></p>     
+</section>    
+</header>    
 <header class="home-header">
-<aside>
-<nav>
+<nav class="header-main nav" aria-label="Primary Navigation">
 <a href="#menu">☰ Menu</a>
 <a href="#about-us">ℹ About Us</a>
 <a href="#contact-us">🎧 Contact Us</a>
 <a href="#reviews">💬 Reviews</a>
-</nav>
-</aside>
-<section class="banner"><h1>Flavour House Restaurant</h1></section>
-<aside>
-<nav>
-<a href="#profile">👤</a>
-<a href="#cart">🛒</a>
-</nav>
-</aside>
+<a href="#profile">👤 Profile</a>
+<a href="#cart">🛒 Cart</a>
+</nav>    
 </header>
 <article class="gallery">
 <figure><img src="https://greatamericansteakhouse.com/assets/img/gal/catering.jpg" width="900" height="300" alt="Food image"></figure>
@@ -51,19 +52,20 @@
 <header class="avatar-header"><span>👤</span><a href="#home" class="back-btn">‹</a></header>
 <section class="form-outline">
 <form>
-<label>Full Name</label><input type="text" placeholder="Enter Your Name">
-<label>Phone Number</label><input type="text" placeholder="Enter Your Phone Number">
-<label>Email</label><input type="email" placeholder="📧 Enter Your Email">
-<label>Age</label><input type="number" placeholder="Enter Your Age">
+<label>Full Name</label><input type="text" id="profileName" placeholder="Enter Your Name">
+<label>Phone Number</label><input type="number" id="profilePhone" placeholder="Enter Your Phone Number">
+<label>Email</label><input type="email" id="profileEmail" placeholder="📧 Enter Your Email">
+<label>Age</label><input type="date" id="profileAge" placeholder="Enter Your Age">
 <label>Gender</label>
-<section class="radio-group">
-<label><input type="radio" name="gender">Male</label>
-<label><input type="radio" name="gender">Female</label>
-</section>
-<button type="button" class="btn-action">Save Changes</button>
+<select id="profileGender" class="profile-container" required>
+<option value=''>Select Gender</option> 
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+<button type="button" id="saveProfile" class="btn-action">Save Changes</button>
 </form>
 </section>
-<a href="#login" class="btn-logout">LOG OUT ⎋</a>
+<a href="#login" id="logoutBtn" class="btn-logout">LOG OUT ⎋</a>
 </main>
 
 <main id="menu" class="page-container">
@@ -81,69 +83,63 @@
 <article class="food-card">
 <figure><img src="https://static.vecteezy.com/system/resources/previews/027/671/338/large_2x/tasty-burger-on-the-wooden-board-with-dark-lighting-and-black-background-food-and-delivery-concept-generative-ai-free-photo.jpg" alt="Burger"></figure>
 <section class="food-card3"><p>Classic Cheeseburger</p><p>$40</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
+<section class="food-card2" aria-label="Quantity Controls">
+<button type="button" aria-label="Decrease Quantity" class="minus-btn">-</button>
+<p>0</p>
+<button type="button" aria-label="Increase Quantity" class="plus-btn">+</button>
+</section>
 </article>
 <article class="food-card">
 <figure><img src="https://petitechefs.com/wp-content/uploads/2023/11/Barbecue-Sauce.jpg" alt="Steak"></figure>
-<section class="food-card3"><p>Classic Beef BBQ</pV><p>$60</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
+<section class="food-card3"><p>Classic Beef BBQ</p><p>$60</p></section>
+<section class="food-card2" aria-label="Quantity Controls">
+<button type="button" aria-label="Decrease Quantity" class="minus-btn">-</button>
+<p>0</p>
+<button type="button" aria-label="Increase Quantity" class="plus-btn">+</button>
+</section>
 </article>
 <article class="food-card">
 <figure><img src="https://img.freepik.com/premium-photo/overhead-view-homemade-apple-pie-with-lattice-top_908985-79052.jpg" alt="Apple Pie"></figure>
-<section class="food-card3"><p>Classic Apple Pie</pV><p>$45</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
+<section class="food-card3"><p>Classic Apple Pie</p><p>$45</p></section>
+<section class="food-card2" aria-label="Quantity Controls">
+<button type="button" aria-label="Decrease Quantity" class="minus-btn">-</button>
+<p>0</p>
+<button type="button" aria-label="Increase Quantity" class="plus-btn">+</button>
+</section>
 </article>
 <article class="food-card">
 <figure><img src="https://img.freepik.com/premium-photo/italian-classic-pizza-slice_1082068-93854.jpg" alt="Pepperoni Pizza"></figure>
-<section class="food-card3"><p>Classic Pepperoni Pizza</pV><p>$50</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
+<section class="food-card3"><p>Classic Pepperoni Pizza</p><p>$50</p></section>
+<section class="food-card2" aria-label="Quantity Controls">
+<button type="button" aria-label="Decrease Quantity" class="minus-btn">-</button>
+<p>0</p>
+<button type="button" aria-label="Increase Quantity" class="plus-btn">+</button>
+</section>
 </article>
 <article class="food-card">
 <figure><img src="https://img.freepik.com/premium-photo/steak-with-mashed-potatoes-tasty-meal-style-aerial-view_921860-138929.jpg" alt="Steak"></figure>
-<section class="food-card3"><p>Steak with Mashed Potatos</pV><p>$65</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
+<section class="food-card3"><p>Steak with Mashed Potatos</p><p>$65</p></section>
+<section class="food-card2" aria-label="Quantity Controls">
+<button type="button" aria-label="Decrease Quantity" class="minus-btn">-</button>
+<p>0</p>
+<button type="button" aria-label="Increase Quantity" class="plus-btn">+</button>
+</section>
 </article>
 <article class="food-card">
 <figure><img src="https://www.thestreet.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTcxMDM3MTk0NDA2ODYzOTE0/a-bottle-of-coca-cola-soda-lead.jpg" alt="Coke"></figure>
-<section class="food-card3"><p>Coca-Cola</pV><p>$9</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
+<section class="food-card3"><p>Coca-Cola</p><p>$9</p></section>
+<section class="food-card2" aria-label="Quantity Controls">
+<button type="button" aria-label="Decrease Quantity" class="minus-btn">-</button>
+<p>0</p>
+<button type="button" aria-label="Increase Quantity" class="plus-btn">+</button>
+</section>
 </article>
 </main>
 
 <main id="cart" class="page">
 <header class="black-banner"><h1>Cart</h1><a href="#menu" class="back-btn">‹☰</a></header>
-<article class="food-card">
-<figure><img src="https://static.vecteezy.com/system/resources/previews/027/671/338/large_2x/tasty-burger-on-the-wooden-board-with-dark-lighting-and-black-background-food-and-delivery-concept-generative-ai-free-photo.jpg" alt="Burger"></figure>
-<section class="food-card3"><p>Classic Cheeseburger</p><p>$40</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
-<article class="food-card">
-<figure><img src="https://petitechefs.com/wp-content/uploads/2023/11/Barbecue-Sauce.jpg" alt="Steak"></figure>
-<section class="food-card3"><p>Classic Beef BBQ</pV><p>$60</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
-<article class="food-card">
-<figure><img src="https://img.freepik.com/premium-photo/overhead-view-homemade-apple-pie-with-lattice-top_908985-79052.jpg" alt="Apple Pie"></figure>
-<section class="food-card3"><p>Classic Apple Pie</pV><p>$45</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
-<article class="food-card">
-<figure><img src="https://img.freepik.com/premium-photo/italian-classic-pizza-slice_1082068-93854.jpg" alt="Pepperoni Pizza"></figure>
-<section class="food-card3"><p>Classic Pepperoni Pizza</pV><p>$50</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
-<article class="food-card">
-<figure><img src="https://img.freepik.com/premium-photo/steak-with-mashed-potatoes-tasty-meal-style-aerial-view_921860-138929.jpg" alt="Steak"></figure>
-<section class="food-card3"><p>Steak with Mashed Potatos</pV><p>$65</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
-<article class="food-card">
-<figure><img src="https://www.thestreet.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTcxMDM3MTk0NDA2ODYzOTE0/a-bottle-of-coca-cola-soda-lead.jpg" alt="Coke"></figure>
-<section class="food-card3"><p>Coca-Cola</pV><p>$9</p></section>
-<section class="food-card2"><button>-</button><p>1</p><button>+</button></section>
-</article>
-<footer class="total"><strong>Total Price: $269</strong></footer>
+<section id="cartItems"></section>
+<footer class="total"><strong>Total Price: $0</strong></footer>
 <a href="#checkout" class="btn-checkout">Compelete Payment</a>
 </section>
 </main>
@@ -155,9 +151,10 @@
 <h4 class="group-title">Delivery</h4>
 <label for="address">Delivery Address</label>
 <input type="text" id="address" name="address" placeholder="Street Name / Building Number / Apartment Number">
+<span class="error-message" id="addressError"></span>
 <section class="toggle-row">
 <label>Hand it to me personally</label>
-<input type="checkbox" class="switch">
+<input type="checkbox" class="switch" aria-label="Hand it to me personally">
 </section>
 </fieldset>
 <fieldset class="checkout-group">
@@ -166,28 +163,24 @@
 <span>Edit Cart</span>
 <i>›</i>
 </a>
-<footer class="total-row"><strong>Total Price: $269</strong></footer>
+<footer class="total-row"><strong>Total Price: $0</strong></footer>
 </fieldset>
 <fieldset class="checkout-group">
-<h4 class="group-title">Payment Method</h4>
-<section class="payment-option">
-<label>Apple Pay</label>
-<input type="radio" name="pay-method" checked>
-</section>
-<section class="payment-option">
-<label>Wallet</label>
-<input type="radio" name="pay-method">
-</section>
+<h4 class="group-title">Payment</h4>
 <section class="add-card-section">
 <header><p>Add New Card</p></header>
 <span class="input-with-icon">
-<input type="text" placeholder="💳 Enter Bank Card Number">
+<input type="text" id="cardNumber" placeholder="💳 Enter Bank Card Number">
 </span>
+<span class="error-message" id="cardError"></span>
 <section class="input-grid">
-<input type="text" placeholder="MM/YY">
-<input type="password" placeholder="CVV/CVC">
+<input type="text" id="expiryDate" placeholder="MM/YY">
+<input type="password" id="cvvNumber" placeholder="CVV/CVC">
 </section>
-<input type="text" placeholder="Enter Cardholder Name">
+<span class="error-message" id="cvvError"></span>
+<span class="error-message" id="dateError"></span>
+<input type="text" id="cardName" placeholder="Enter Cardholder Name">
+<span class="error-message" id="nameError"></span>
 </section>
 </fieldset>
 <button type="submit" class="btn-checkout">Confirm Payment</button>
@@ -214,13 +207,16 @@ To address this problem we developed this web application to help you order your
 <main id="contact-us" class="page">
 <header class="dark-box"><h1>Contact Us</h1><a href="#home" class="back-btn">‹</a></header>
 <section class="contact-grid">
-<form>
+<form id="contactForm">
 <h3>Send Us a Message</h3>    
-<label>Full Name</label><input type="text" placeholder="Enter Your Name">
-<label>Email</label></span><input type="email" placeholder="📧 Enter Your Email">
-<label>Subject</label><input type="text" placeholder="Enter Subject">
-<label>Message</label><textarea placeholder="Enter Your Message"></textarea>
-<button type="button" class="btn-action">Send Message ›</button>
+<label>Full Name</label><input type="text" id="contactName" placeholder="Enter Your Name">
+<span class="error-message" id="contactNameError"></span>
+<label>Email</label></span><input type="email" id="contactEmail" placeholder="📧 Enter Your Email">
+<span class="error-message" id="contactEmailError"></span>
+<label>Subject</label><input type="text" id="contactSubject" placeholder="Enter Subject">
+<label>Message</label><textarea id="contactMessage" placeholder="Enter Your Message"></textarea>
+<span class="error-message" id="contactMessageError"></span>
+<button type="submit" class="btn-action">Send Message ›</button>
 </form>
 <aside>
 <h3>Find Us!</h3>    
@@ -237,58 +233,90 @@ To address this problem we developed this web application to help you order your
 <header class="black-banner"><h1>Our Customer Reviews</h1><a href="#home" class="back-btn">‹</a></header>
 <section class="review">
 <p class="page">you can take a look at peoples opinions about our restaurant</p>
+<section class="review-container">
+<form id="reviewForm" class="form-outline">
+
+<label>Full Name</label><input type="text"
+id="reviewCustomer"
+placeholder="Enter Your Name">
+
+<label>Review Message</label><textarea
+id="reviewText"
+placeholder="Enter Your Review"
+required></textarea>
+
+<label>Rating</label><select id="reviewRating" required>
+
+<option value="">Select Rating</option>
+
+<option value="5">5 Stars</option>
+
+<option value="4">4 Stars</option>
+
+<option value="3">3 Stars</option>
+
+<option value="2">2 Stars</option>
+
+<option value="1">1 Star</option>
+
+</select>
+
+<button type="submit" class="btn-action">
+Add Review
+</button>
+
+</form>
+
+<figure class="chart">
+
+<header>
+<h3>Customer Reviews</h3>
+</header>
+
+<section class="row">
+<span>5</span>
+<progress id="progress5" value="0" max="10"></progress>
+</section>
+
+<section class="row">
+<span>4</span>
+<progress id="progress4" value="0" max="10"></progress>
+</section>
+
+<section class="row">
+<span>3</span>
+<progress id="progress3" value="0" max="10"></progress>
+</section>
+
+<section class="row">
+<span>2</span>
+<progress id="progress2" value="0" max="10"></progress>
+</section>
+
+<section class="row">
+<span>1</span>
+<progress id="progress1" value="0" max="10"></progress>
+</section>
+
+</figure>
+</section>
+
 <table class="review-table">
 <thead>
 <tr>
 <th>Customer</th>
 <th>Review</th>
 <th>Rating</th>
+<th>Action</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td>James</td>
-<td>The steak was amazing!</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Emily</td>
-<td>Mashed potatoes were perfect.</td>
-<td>4</td>
-</tr>
-<tr>
-<td>Michael Brown</td>
-<td>Best restaurant in Texas!</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Sarah Johnson</td>
-<td>Service was a bit slow but food great.</td>
-<td>4</td>
-</tr>
-<tr>
-<td>David Lee</td>
-<td>The food was very good!</td>
-<td>4</td>
-</tr>
-<tr>
-<td>Olivia</td>
-<td>Cozy place the food was basic nothing special.</td>
-<td>2</td>
-</tr>
+<tbody id="reviewTableBody">
 </tbody>
 </table>
-<figure class="chart">
-<header><h3>Customer Reviews</h3></header>    
-<section class="row"><span>5</span><progress value="5" max="6"></progress></section>
-<section class="row"><span>4</span><progress value="4" max="6"></progress></section>
-<section class="row"><span>5</span><progress value="5" max="6"></progress></section>
-<section class="row"><span>4</span><progress value="4" max="6"></progress></section>
-<section class="row"><span>4</span><progress value="4" max="6"></progress></section>
-<section class="row"><span>2</span><progress value="2" max="6"></progress></section>
-</figure>
+
 </section>
 <footer class="main-footer"><p>© 2023 All Rights Reserved by Flavour House Restaurant.</p></footer>
 </main>
+<script src="script.js"></script>
 </body>
 </html>

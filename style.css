@@ -66,6 +66,22 @@ width: 100%;
 box-sizing: border-box;
 }
 
+.error-message {
+color: red;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.input-error {
+border: 2px solid red !important;
+}
+
+.input-valid {
+border: 2px solid green !important;
+}
+
 .btn-main {
 background-color: #713f12;
 color: white;
@@ -73,9 +89,10 @@ padding: 10px;
 display: block;
 text-align: center;
 text-decoration: none;
+max-width: 200px;
+width: 90%;    
 margin-top: 10px;
-margin-left: 130px;
-margin-right: 130px;
+margin-left: 100px;
 margin-bottom: -10px;
 }
 
@@ -85,21 +102,36 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 background: black;
-margin: 1px 1px 1px 1px;
-padding: 10px 20px;
+padding: 16px 32px;
+gap: 20px;
+flex-wrap: wrap;
 }
 
 .home-header nav {
 display: flex;
-flex-direction: column;
-font-size: 20px;
+align-items: center;
+gap: 20px;
+font-size: 18px;
+flex-wrap: wrap;
 }
 
 .home-header nav a {
 color: white;
 text-decoration: none;
-padding: 2px 0;
-line-height: 2;
+padding: 10px 16px;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+.home-header nav a:hover {
+background-color: #713f12;
+}
+
+.header-main {
+display: flex;
+align-items: center;
+gap: 16px;
+flex-wrap: wrap;
 }
 
 .gallery p {
@@ -165,6 +197,17 @@ max-width: 200px;
 width: 90%;
 }
 
+.profile-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 30px;
+max-width: 40%;
+padding: 20px;
+margin-left: 176px;
+}
+
 
 /* MENU & CART PAGE */
 .food-card, .form-container section {
@@ -206,14 +249,11 @@ border-radius: 20px;
 
 #menu .search-form {
 background-color: #f5ebdd;
-max-width: 500px;
-margin: 10px 0pc 0px 315px; 
+max-width: 860px;
+margin: 20px auto;
 padding: 20px;
-border-radius: 10px;
+border-radius: 12px;
 border: 1px solid #713f12;
-position: relative;
-z-index: 2;
-max-width: 765px;
 }
 
 #menu input {
@@ -235,14 +275,17 @@ margin-left: -25px;
 display: flex;
 background: #f5ebdd;
 border: 1px solid #713f12;
-border-radius: 10px;
-margin: 10px auto;
-max-width: 800px;
-height: 110px;
+border-radius: 12px;
+margin: 20px auto;
+max-width: 900px;
+width: 100%;
+min-height: 120px;
 align-items: center;
 overflow: hidden;
-margin-right: 320px;
-display: flex;
+padding: 10px;
+gap: 20px;
+box-sizing: border-box;
+overflow: visible;
 }
 
 .food-card3 {  
@@ -277,14 +320,13 @@ margin-right: 5px;
 .total {
 background-color: black;
 color: white;
-padding: 0px;
+padding: 16px;
 display: block;
 text-align: center;
-text-decoration: none;
-margin-left: 535px;
-max-width: 25%;
-margin-bottom: 10px;
-text-align: center;
+margin: 20px auto;
+max-width: 300px;
+width: 100%;
+border-radius: 10px;
 }
 
 .btn-checkout {
@@ -315,7 +357,6 @@ border-radius: 10px;
 .group-title {
 display: block
 }
-
 
 #checkout input {
 width: 100%; padding: 10px; margin: 8px 0px 8px -8px; border: 1px solid #ccc;
@@ -371,7 +412,51 @@ background: white; color: #000; border-collapse: collapse;
 .review-table th, .review-table td { border: 1px solid #ccc; padding: 12px; }
 .review-table th { background: white; color: black }
 
-.chart { background: white; padding: 20px; max-width: 175px; margin: 0 auto; border: 1px solid white; border-radius: 10px; }
+.chart { background: white; padding: 52px; max-width: 175px; margin: 0 auto; border: 1px solid white; border-radius: 10px; }
+
+#reviews form {
+background: #f5ebdd; padding: 40px; max-width: 175px; margin: 0 auto; border: 1px solid #713f12; border-radius: 10px;
+}
+
+#reviews input, #reviews select, #reviews textarea{
+background: white;
+border: 1px solid #ccc;
+padding: 12px;
+margin: 10px 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+#reviews button {
+background-color: #713f12;
+color: white;
+padding: 10px;
+display: block;
+text-align: center;
+text-decoration: none;
+max-width: 200px;
+width: 90%;    
+margin-top: 10px;
+margin-left: 8px;
+margin-bottom: -10px;
+}
+
+.review-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 30px;
+max-width: 40%;
+padding: 20px;
+margin-left: 400px;
+border: 1px solid #ccc;
+background-color: #713f12;
+}
+
+.row {
+padding: 1.01px;
+}
 
 /* FOOTER */
 .main-footer { text-align: center; padding: 30px; color: #713f12; font-size: 13px; font-weight: bold; }
