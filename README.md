@@ -1,4 +1,4 @@
-## Project idea
+## Project Idea
 Flavor House is a restaurant web application that our team made, it is a prototype designed to represent a traditional American restaurant experience.
 
 The restaurant was founded in Texas by John Phillips and serves classic American comfort food such as steaks, mashed potatoes and apple pie.
@@ -7,7 +7,7 @@ The goal of our application is to allow customers to easily search for the resta
 
 [View Business Problem and Proposed Solution (PDF).](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/BIS%20351%20group%20final%20project.pdf)
 
-## Our website link
+## Our Website Link
 https://bis351groupproject.github.io/Flavour-House-Restaurant-App/
 
 ## Features
