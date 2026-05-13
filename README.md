@@ -61,8 +61,7 @@ Inclusivity Highlights
 ## Planning (Gantt Chart)
 The project follows a structured timeline:
 - **[Milestone 1]** Requirements & UI/UX Design (Appsmith/HTML/CSS)
-- **[Milestone 2]** Functional Development (HTML/CSS/JS)
-- **[Milestone 3]** Final Project App/Report/Presentation
+- **[Milestone 2]** Functional Development (HTML/CSS/JS) / Final Project App/Report/Presentation
 - [View Gantt Chart (PDF)](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/Gantt%20Chart.pdf)
 
 ## Team Members
