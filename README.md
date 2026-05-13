@@ -7,7 +7,7 @@ The goal of our application is to allow customers to easily search for the resta
 
 [View Business Problem and Proposed Solution (PDF).](https://github.com/BIS351groupproject/Flavour-House-Restaurant-App/blob/main/BIS%20351%20group%20final%20project.pdf)
 
-## Our website Link:
+## Our website Link
 https://bis351groupproject.github.io/Flavour-House-Restaurant-App/
 
 ## Features
@@ -31,32 +31,49 @@ These pages allow users to navigate the restaurant website freely and to also le
 - GitHub for uploading and describing the project
 
 ## Accessibility Plan
-The project follows WCAG Level AA standards by implementing Semantic HTML, ensuring high Color Contrast, providing Alt Text for media, and maintaining full Keyboard Navigability across all 9 pages.
 
-Semantic Structure 
-- Instead of using generic "div" tags, we used meaningful HTML5 elements. This helps Screen Readers navigate 9 pages efficiently.
-- "nav": For the main navigation menu.
-- "main": For the unique content of each page.
-- "header" & "footer": To define the top and bottom sections consistently.
-- "h1" to "h6": Used in a logical nesting order.
+The project follows WCAG Level AA accessibility principles by using semantic HTML, maintaining clear color contrast, providing alternative text for images, and supporting keyboard navigation across all pages.
 
-Visual & Color Contrast
-- We ensure the site is readable for everyone.
-- The brown and beige background meets the text clarity.
-- We don't rely only on colors to show errors; we use text labels as well.
+1. Semantic Structure
 
-Perceivable Content (Images & Charts)
-- Alt Text: Every food image has a descriptive alt attribute, alt="Pepperoni Pizza" as an example.
-- Semantic Charts: Our Bar Chart uses "figure", making the data understandable for visually impaired users via screen readers.
+The website uses semantic HTML5 elements instead of generic containers to improve readability and accessibility.
 
-Operability (Keyboard & Forms)
-- Focus States: We kept the visual "outline" when a user navigates via the Tab key.
-- Form Labels: In the "Contact Us" and "Check Out" pages, every "input" is strictly linked to a "label" for attributes.
-- Interactive Targets: Buttons and links are large enough to be easily clicked on mobile or by users with motor impairments.
+- "nav" is used for navigation menus.
+- "main" is used for the primary content of each page.
+- "header" and "footer" are used consistently throughout the website.
+- "section", "article", "figure", and "aside" help organize related content clearly.
+- Headings such as "h1", "h3", and "h4" are used to create a logical content structure.
 
-Inclusivity Highlights
-- Language: Added lang="en" to the "html" tag so screen readers use the correct accent.
-- Meaningful Links: Replaced "Click here" with descriptive text like "Complete Payment" to provide context.
+2. Visual & Color Contrast
+
+The website uses high-contrast colors to improve readability.
+
+- Dark text and dark interface elements are combined with light beige backgrounds for better visibility.
+- Error messages include both color indicators and text descriptions to improve clarity for users.
+
+3. Perceivable Content
+
+Images and visual content are designed to be understandable for all users.
+
+- Images include descriptive "alt" attributes such as alt="Pepperoni Pizza".
+- The review rating section uses semantic elements like "figure" and "progress" to improve accessibility and structure.
+
+4. Keyboard Accessibility & Forms
+
+The website supports keyboard interaction and accessible form design.
+
+- Users can navigate through links, buttons, and form controls using the keyboard.
+- Default browser focus outlines are preserved for visible keyboard navigation.
+- Forms include visible labels to describe the purpose of each input field.
+- Buttons and interactive elements are large enough to improve usability on mobile devices and for users with motor impairments.
+
+5. Inclusivity Features
+
+Additional accessibility features were implemented to improve the overall user experience.
+
+- The "lang='en'" attribute is added to the HTML document to support screen readers.
+- Navigation links use meaningful text such as "Complete Payment" instead of vague phrases like "Click Here".
+- Icons are combined with text labels to provide clearer context for users.
 
 ## Planning (Gantt Chart (Updated))
 The project follows a structured timeline:
